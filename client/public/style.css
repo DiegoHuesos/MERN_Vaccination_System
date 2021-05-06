@@ -1,0 +1,120 @@
+body, html, #root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(239, 239, 239, 1)
+}
+
+header{
+    background-color: rgba(240, 233, 218, 1);
+    font-size: 20px;
+    height: 150px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-header{
+    height: 100px;
+}
+
+footer{
+    font-size: 20px;
+    height: 60px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(182, 150, 100, 1);
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+ul{
+    list-style: none;
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    min-height: 50vh;
+}
+
+.panel {
+    flex: 1;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-output {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.cont-output td{
+    padding: 0;
+
+}
+
+.cont-output table{
+    margin: 10px 0
+}
+
+
+.curp-div{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.curp-container{
+    height: 300px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+
+.local-header{
+    background-color:antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgba(240, 233, 218, 1);;
+    text-align: center;
+    border-radius:8px 8px 0 0;
+    font-size: 20px;
+    padding: 10px 20px 8px 15px;
+}
+
+
+
+
+
+.local-body{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.curp-form{
+    padding-top: 30px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}

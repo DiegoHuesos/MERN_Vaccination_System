@@ -5,7 +5,7 @@ const connectDB = require("./config/db");
 const postRoutes = require("./routes/postRoutes");
 const cors = require('cors');
 
-connectDB();
+//connectDB();
 
 const app = express();
 

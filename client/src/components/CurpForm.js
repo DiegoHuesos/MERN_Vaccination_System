@@ -28,8 +28,8 @@ export default class CreateUser extends Component {
 
     console.log(user);
     const PORT = process.env.PORT || 5000;
-    axios.post('http://localhost:'+PORT+'/users/add', user)
-      .then(res => console.log(res.data));
+    //axios.post('http://localhost:'+PORT+'/users/add', user)
+      //.then(res => console.log(res.data));
 
     this.setState({
       username: ''

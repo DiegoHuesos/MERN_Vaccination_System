@@ -76,6 +76,9 @@ ul{
     align-items: center;
 }
 
+.div-form{
+    height: 100%;
+}
 .curp-container{
     height: 300px;
     background-color: white;
@@ -84,6 +87,14 @@ ul{
     flex-direction: column;
     justify-content: space-around;
     border-radius: 8px;
+}
+
+.div-container{
+    height: auto;
+}
+
+.body-datos{
+    padding: 20px;
 }
 
 .local-header{
@@ -99,9 +110,12 @@ ul{
     padding: 10px 20px 8px 15px;
 }
 
-
-
-
+.exitoso{
+    background-color: rgb(152,202,63);
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 25px;
+}
 
 .local-body{
     height: 60%;
@@ -110,6 +124,12 @@ ul{
     align-items: center;
 }
 
+.mensaje-exito{
+    height: 70%;
+    padding: 50px;
+    font-size: 18px;
+    text-align: center;
+}
 .curp-form{
     padding-top: 30px;
     height: 100%;
@@ -118,3 +138,4 @@ ul{
     flex-direction: column;
     justify-content: space-around;
 }
+

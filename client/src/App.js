@@ -9,6 +9,8 @@ import "./App.css";
 import Header from './components/Header';
 import Footer from './components/Footer';
 import CurpForm from './components/CurpForm';
+import Registrado from './components/Registrado';
+import Datos from './components/Datos';
 
 function App() {
   return (
@@ -16,7 +18,10 @@ function App() {
       <div className="container">
           <Header/>
           <br/>
-          <CurpForm/>
+          <Route path="/" exact component={CurpForm}/>
+          
+          <Route path="/datos" exact component={Datos}/>
+          <Route path="/registrado" exact component={Registrado}/>
           <br/>
           <Footer/>
         </div>

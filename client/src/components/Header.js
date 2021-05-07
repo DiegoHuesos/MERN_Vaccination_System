@@ -4,7 +4,9 @@ class Header extends Component {
     render(){
         return(
             <header>
-                <img src="/logo_gob_mexico.png" alt="Logo Gobierno Federal" className="logo-header"/>
+                <a href="/">
+                    <img src="/logo_gob_mexico.png" alt="Logo Gobierno Federal" className="logo-header"/>
+                </a>
             </header>
         )
     }
